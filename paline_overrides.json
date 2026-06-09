@@ -1,0 +1,59 @@
+{
+  "date": "2026-06-09T11:08:21.686Z",
+  "source": "eav-paline-beta",
+  "count": 3,
+  "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+  "overrides": {
+    "113": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-09T11:08:01.672Z",
+          "op": "Mario Rossi"
+        }
+      ],
+      "updated": "2026-06-09T11:08:01.672Z"
+    },
+    "120": {
+      "stato": "installata",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-09T11:08:01.321Z",
+          "op": "Mario Rossi"
+        },
+        {
+          "da": "in_ispezione",
+          "a": "in_lavorazione",
+          "ts": "2026-06-09T11:08:01.436Z",
+          "op": "Mario Rossi"
+        },
+        {
+          "da": "in_lavorazione",
+          "a": "installata",
+          "ts": "2026-06-09T11:08:01.553Z",
+          "op": "Mario Rossi"
+        }
+      ],
+      "updated": "2026-06-09T11:08:01.553Z",
+      "cronoprogramma_id": null,
+      "ultimaIspezione": "2026-06-09"
+    },
+    "124": {
+      "stato": "non_presente",
+      "cronoprogramma_id": null,
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "non_presente",
+          "ts": "2026-06-09T11:08:01.674Z",
+          "op": "Mario Rossi"
+        }
+      ],
+      "updated": "2026-06-09T11:08:01.674Z"
+    }
+  }
+}
